@@ -26,7 +26,7 @@ setup(
     description="Set of utility python modules.",
     long_description=io.open("README.md", "r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/alefnula/tea",
+    url="https://github.com/unitaryfund/tea",
     platforms=["Windows", "POSIX", "MacOSX"],
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -38,6 +38,5 @@ setup(
     license="Apache-2.0",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=io.open("requirements.txt").read().splitlines(),
     scripts=[],
 )
